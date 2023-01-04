@@ -1,0 +1,21 @@
+[[package]]
+name = "sqlglot"
+version = "10.4.2"
+description = "An easily customizable SQL parser and transpiler"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.extras]
+dev = ["autoflake", "black", "duckdb", "isort", "mypy", "pandas", "pyspark", "python-dateutil", "pdoc", "pre-commit"]
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.10"
+content-hash = "e8b5c29e496630f2c13815eb19668026b2c8bd52dc8e0e5e30da58f90b411265"
+
+[metadata.files]
+sqlglot = [
+    {file = "sqlglot-10.4.2-py3-none-any.whl", hash = "sha256:3fb0ef86b0cdf52edf72e9db03f4c9c0e1e76aee92b440760879171bff319115"},
+    {file = "sqlglot-10.4.2.tar.gz", hash = "sha256:e194ea34db58609484f29fcb49ebae77e6b740c67337d51a70e5b407aa3ada27"},
+]
